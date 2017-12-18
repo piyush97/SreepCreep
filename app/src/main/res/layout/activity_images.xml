@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+    <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/slide_in_right"
+        android:outAnimation="@anim/slide_in_left"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:src="@drawable/img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/str_img1"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:src="@drawable/img2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/str_img2"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:src="@drawable/img3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/str_img3"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:src="@drawable/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str_img4"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:src="@drawable/img5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/str_img5"
+            android:layout_gravity="center_horizontal" />
+
+    </ViewFlipper>
+
+</RelativeLayout>
