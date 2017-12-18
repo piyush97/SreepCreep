@@ -32,7 +32,8 @@
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Images"></activity>
+        <activity android:name=".Images" />
+        <activity android:name=".HBD"></activity>
     </application>
 
 </manifest>
